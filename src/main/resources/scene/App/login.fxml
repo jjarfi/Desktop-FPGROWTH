@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="507.0" prefWidth="370.0" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="135.0" layoutY="154.0" prefHeight="507.0" prefWidth="370.0" style="-fx-background-color: #28293d; -fx-background-radius: 0.4cm;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <AnchorPane prefHeight="110.0" prefWidth="350.0" style="-fx-background-color: #28293d;">
+               <VBox.margin>
+                  <Insets bottom="30.0" />
+               </VBox.margin></AnchorPane>
+            <Label text="Username" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="17.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtusername" prefHeight="40.0" prefWidth="320.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="27.0" layoutY="150.0" text="Password" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="17.0" top="7.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField fx:id="txtpassword" onAction="#loginApps" prefHeight="40.0" prefWidth="320.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </PasswordField>
+            <JFXCheckBox checkedColor="#0088cc" text="Accept?" textFill="WHITE" unCheckedColor="WHITE">
+               <VBox.margin>
+                  <Insets left="17.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXButton buttonType="RAISED" contentDisplay="TEXT_ONLY" ellipsisString="" focusTraversable="false" onAction="#loginApps" prefHeight="48.0" prefWidth="270.0" style="-fx-background-color: #0088cc; -fx-border-color: #0088cc;" text="Login " textAlignment="RIGHT" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="40.0" right="40.0" top="46.0" />
+               </VBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <HBox prefHeight="32.0" prefWidth="350.0">
+               <children>
+                  <Label prefHeight="49.0" prefWidth="330.0" text="Forgot password ?" textFill="WHITE" />
+                  <Label fx:id="klickForgot" layoutX="10.0" layoutY="10.0" onMouseClicked="#forgotClick" prefHeight="31.0" prefWidth="397.0" text="Reset" textFill="WHITE" underline="true" />
+               </children>
+               <VBox.margin>
+                  <Insets left="15.0" top="15.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="30.0" layoutY="440.0" prefHeight="32.0" prefWidth="350.0">
+               <children>
+                  <Label prefHeight="31.0" prefWidth="342.0" text="Don't have an account ?" textFill="WHITE" />
+                  <Label fx:id="lblRegis" layoutX="10.0" layoutY="10.0" onMouseClicked="#regisClick" prefHeight="31.0" prefWidth="330.0" text="Register" textFill="WHITE" underline="true" />
+               </children>
+               <VBox.margin>
+                  <Insets left="15.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="507.0" prefWidth="370.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <children>
+      <VBox layoutX="135.0" layoutY="154.0" prefHeight="507.0" prefWidth="370.0" style="-fx-background-color: #28293d; -fx-background-radius: 0.4cm;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <AnchorPane prefHeight="72.0" prefWidth="350.0" style="-fx-background-color: #28293d;">
+               <VBox.margin>
+                  <Insets bottom="15.0" left="6.0" right="6.0" top="7.0" />
+               </VBox.margin>
+               <children>
+                  <JFXButton fx:id="btnBack" contentDisplay="GRAPHIC_ONLY" ellipsisString="" layoutY="12.0" onAction="#back" prefHeight="42.0" prefWidth="41.0" ripplerFill="#0088cc" style="-fx-background-color: #0088cc; -fx-background-radius: 9cm;">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" iconName="ARROW_LEFT" size="1.4em" />
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+            <Label text="Email" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="17.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <TextField prefHeight="40.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </TextField>
+            <Label layoutX="27.0" layoutY="112.0" text="New password" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="17.0" top="7.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField prefHeight="40.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </PasswordField>
+            <Label layoutX="27.0" layoutY="178.0" text="Confirm password" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="17.0" top="7.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField layoutX="20.0" layoutY="197.0" prefHeight="40.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </PasswordField>
+            <JFXCheckBox checkedColor="#0088cc" text="Accept Term ?" textFill="WHITE">
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </JFXCheckBox>
+            <JFXButton buttonType="RAISED" contentDisplay="TEXT_ONLY" ellipsisString="" prefHeight="48.0" prefWidth="270.0" style="-fx-background-color: #0088cc; -fx-border-color: #0088cc;" text="Reset Password" textAlignment="RIGHT" textFill="WHITE">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="40.0" right="40.0" top="40.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </VBox>
+   </children>
+</AnchorPane>

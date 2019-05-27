@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<StackPane prefHeight="660.0" prefWidth="1111.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="620.0" prefWidth="974.0" style="-fx-background-color: #1c2238;">
+         <center>
+            <JFXTabPane BorderPane.alignment="CENTER">
+               <tabs>
+                  <Tab text="Postingan Berita">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="200.0">
+                           <children>
+                              <GridPane layoutX="215.0" layoutY="146.0" prefWidth="1111.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="753.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="549.0" minWidth="10.0" prefWidth="358.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                    <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+                                  <RowConstraints prefHeight="566.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <AnchorPane prefWidth="200.0" style="-fx-background-color: #28293d;" GridPane.rowIndex="1">
+                                       <GridPane.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </GridPane.margin>
+                                       <effect>
+                                          <DropShadow />
+                                       </effect>
+                                       <children>
+                                          <VBox layoutX="74.0" layoutY="104.0" prefWidth="536.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <padding>
+                                                <Insets left="10.0" right="10.0" top="10.0" />
+                                             </padding>
+                                             <children>
+                                                <Label text="Judul Berita" textFill="WHITE">
+                                                   <font>
+                                                      <Font name="System Bold" size="14.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets bottom="2.0" top="3.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <TextArea prefHeight="71.0" prefWidth="723.0" promptText="Judul minimal 255 karakter" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+                                                   <font>
+                                                      <Font size="14.0" />
+                                                   </font>
+                                                </TextArea>
+                                                <Label layoutX="20.0" layoutY="30.0" text="Deskripsi Berita" textFill="WHITE">
+                                                   <font>
+                                                      <Font name="System Bold" size="14.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets bottom="2.0" top="6.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" prefHeight="303.0" prefWidth="723.0" />
+                                                <Label layoutX="20.0" layoutY="120.0" text="Link / Alamat berita" textFill="WHITE">
+                                                   <font>
+                                                      <Font name="System Bold" size="14.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets bottom="2.0" top="6.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                                <TextField prefHeight="35.0" prefWidth="723.0" promptText="http://example.com/news" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+                                                   <font>
+                                                      <Font name="System Bold" size="13.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets bottom="10.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                                <HBox prefWidth="723.0">
+                                                   <children>
+                                                      <JFXButton prefHeight="40.0" prefWidth="87.0" style="-fx-background-color: #0088cc; -fx-border-color: #0088cc;" text="Save" textFill="WHITE">
+                                                         <HBox.margin>
+                                                            <Insets left="4.0" top="7.0" />
+                                                         </HBox.margin>
+                                                         <graphic>
+                                                            <FontAwesomeIcon fill="WHITE" iconName="PLUS" size="1.4em" />
+                                                         </graphic>
+                                                         <font>
+                                                            <Font name="System Bold" size="13.0" />
+                                                         </font>
+                                                      </JFXButton>
+                                                      <JFXButton layoutX="14.0" layoutY="17.0" prefHeight="40.0" prefWidth="97.0" style="-fx-background-color: #0088cc; -fx-border-color: #0088cc;" text="Update" textFill="WHITE">
+                                                         <graphic>
+                                                            <FontAwesomeIcon fill="WHITE" iconName="PENCIL" size="1.4em" />
+                                                         </graphic>
+                                                         <font>
+                                                            <Font name="System Bold" size="13.0" />
+                                                         </font>
+                                                         <HBox.margin>
+                                                            <Insets left="5.0" top="7.0" />
+                                                         </HBox.margin>
+                                                      </JFXButton>
+                                                      <JFXButton layoutX="105.0" layoutY="17.0" prefHeight="40.0" prefWidth="97.0" style="-fx-background-color: #0088cc; -fx-border-color: #0088cc;" text="Delete" textFill="WHITE">
+                                                         <graphic>
+                                                            <FontAwesomeIcon fill="WHITE" iconName="CLOSE" size="1.4em" />
+                                                         </graphic>
+                                                         <font>
+                                                            <Font name="System Bold" size="13.0" />
+                                                         </font>
+                                                         <HBox.margin>
+                                                            <Insets bottom="7.0" left="5.0" top="7.0" />
+                                                         </HBox.margin>
+                                                      </JFXButton>
+                                                   </children>
+                                                   <VBox.margin>
+                                                      <Insets />
+                                                   </VBox.margin>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane prefWidth="200.0" style="-fx-background-color: #28293d;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <GridPane.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </GridPane.margin>
+                                       <effect>
+                                          <DropShadow />
+                                       </effect>
+                                       <children>
+                                          <VBox layoutX="119.0" layoutY="145.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <TableView prefHeight="644.0" prefWidth="348.0" tableMenuButtonVisible="true">
+                                                  <columns>
+                                                    <TableColumn prefWidth="39.0" text="No" />
+                                                    <TableColumn prefWidth="308.0" text="Tanggal Postingan" />
+                                                  </columns>
+                                                </TableView>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane prefWidth="753.0" style="-fx-background-color: #28293d;">
+                                       <effect>
+                                          <DropShadow />
+                                       </effect>
+                                       <GridPane.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </GridPane.margin>
+                                       <children>
+                                          <Label alignment="CENTER" ellipsisString="" layoutX="85.0" layoutY="18.0" prefHeight="52.0" prefWidth="743.0" text="BERITA DAN INFORMASI" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <font>
+                                                <Font name="System Bold" size="17.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane GridPane.columnIndex="1">
+                                       <children>
+                                          <HBox fillHeight="false" layoutX="14.0" layoutY="-2.0" style="-fx-background-color: #28293d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <effect>
+                                                <DropShadow />
+                                             </effect>
+                                             <children>
+                                                <TextField prefHeight="38.0" prefWidth="426.0" style="-fx-background-color: #ffffff; -fx-border-color: #ffffff;">
+                                                   <HBox.margin>
+                                                      <Insets bottom="7.0" left="4.0" top="7.0" />
+                                                   </HBox.margin>
+                                                </TextField>
+                                                <JFXButton contentDisplay="GRAPHIC_ONLY" prefHeight="112.0" prefWidth="48.0" style="-fx-background-color: #0088cc; -fx-border-color: #0088cc;">
+                                                   <HBox.margin>
+                                                      <Insets bottom="7.0" right="4.0" top="7.0" />
+                                                   </HBox.margin>
+                                                   <graphic>
+                                                      <FontAwesomeIcon fill="WHITE" iconName="SEARCH" size="1.4em" />
+                                                   </graphic>
+                                                </JFXButton>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                       <GridPane.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </GridPane.margin>
+                                    </AnchorPane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Search Engine">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="Website Editor">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+               </tabs>
+            </JFXTabPane>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>

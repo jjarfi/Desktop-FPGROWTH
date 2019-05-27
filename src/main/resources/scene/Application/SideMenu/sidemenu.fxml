@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="185.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+   <children>
+      <BorderPane>
+         <center>
+            <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #28293d;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="223.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0">
+                           <top>
+                              <StackPane prefHeight="107.0" prefWidth="205.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1c2238;">
+                                       <children>
+                                          <VBox prefHeight="200.0" prefWidth="185.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <Label text="Login Access by :" textFill="WHITE">
+                                                   <VBox.margin>
+                                                      <Insets left="6.0" top="9.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font name="System Bold" size="13.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label fx:id="logaccess" ellipsisString="" layoutX="16.0" layoutY="19.0" prefHeight="39.0" prefWidth="182.0" textFill="WHITE" underline="true">
+                                                   <font>
+                                                      <Font name="System Bold" size="16.0" />
+                                                   </font>
+                                                   <VBox.margin>
+                                                      <Insets left="6.0" right="6.0" top="5.0" />
+                                                   </VBox.margin>
+                                                </Label>
+                                             </children>
+                                          </VBox>
+                                       </children></AnchorPane>
+                                 </children>
+                              </StackPane>
+                           </top>
+                           <center>
+                              <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <StackPane prefHeight="515.0" prefWidth="205.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <children>
+                                                <BorderPane prefHeight="200.0" prefWidth="200.0">
+                                                   <left>
+                                                      <StackPane prefHeight="515.0" prefWidth="49.0" BorderPane.alignment="CENTER">
+                                                         <children>
+                                                            <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #1c2238;">
+                                                               <children>
+                                                                  <AnchorPane prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="DESKTOP" size="0.7cm">
+                                                                                 <effect>
+                                                                                    <DropShadow />
+                                                                                 </effect></FontAwesomeIcon>
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="GRADUATION_CAP" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="71.0" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="FILE_TEXT" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="132.0" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="HTML5" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="193.0" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="PIE_CHART" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="254.0" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="PRINT" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="315.0" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="GEARS" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="376.0" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="BUG" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="437.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="61.0" prefWidth="200.0">
+                                                                     <children>
+                                                                        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <children>
+                                                                              <FontAwesomeIcon fill="#c851e6" iconName="POWER_OFF" size="0.7cm" />
+                                                                           </children>
+                                                                        </VBox>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </StackPane>
+                                                   </left>
+                                                   <center>
+                                                      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                                         <children>
+                                                            <VBox prefHeight="200.0" prefWidth="100.0">
+                                                               <children>
+                                                                  <AnchorPane prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" onAction="#showDashboard" prefHeight="61.0" prefWidth="156.0" text="Dashboard" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" onAction="#showGraduates" prefHeight="61.0" prefWidth="156.0" text="Graduates" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="71.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" onAction="#showQuesionare" prefHeight="61.0" prefWidth="156.0" text="Quisionare" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="132.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" ellipsisString="" onAction="#showWebsite" prefHeight="61.0" prefWidth="156.0" text="Website" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="193.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" ellipsisString="" onAction="#showTracerStudy" prefHeight="61.0" prefWidth="156.0" text="Tracer Study" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="254.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" ellipsisString="" onAction="#showReportPrint" prefHeight="61.0" prefWidth="156.0" text="Report" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="315.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" ellipsisString="" onAction="#showSetting" prefHeight="61.0" prefWidth="156.0" text="Setting's" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="376.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" ellipsisString="" prefHeight="61.0" prefWidth="156.0" text="Report bugs" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                                  <AnchorPane layoutX="10.0" layoutY="437.0" prefHeight="61.0" prefWidth="156.0">
+                                                                     <children>
+                                                                        <JFXButton alignment="BASELINE_LEFT" buttonType="RAISED" ellipsisString="" prefHeight="61.0" prefWidth="156.0" text="Log Out" textFill="#edaeff" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                           <font>
+                                                                              <Font name="System Bold" size="14.0" />
+                                                                           </font>
+                                                                        </JFXButton>
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </StackPane>
+                                                   </center>
+                                                </BorderPane>
+                                             </children>
+                                          </StackPane>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </StackPane>
+                           </center>
+                        </BorderPane>
+                     </children>
+                  </StackPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="wellroot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #1c2238;" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="49.0" prefWidth="1200.0" style="-fx-background-color: #1c2238;" BorderPane.alignment="CENTER">
+         <effect>
+            <DropShadow />
+         </effect></AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="24.0" prefWidth="1200.0" style="-fx-background-color: #1c2238;" BorderPane.alignment="CENTER">
+         <children>
+            <Label ellipsisString="" layoutX="907.0" prefHeight="24.0" prefWidth="521.0" text="©Copyright 2019, All right reserved" textAlignment="RIGHT" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="669.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label ellipsisString="" layoutX="1014.0" layoutY="10.0" prefHeight="24.0" prefWidth="186.0" text="https://jjarfi.github.io" textAlignment="RIGHT" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1014.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </bottom>
+   <right>
+      <AnchorPane prefHeight="506.0" prefWidth="15.0" BorderPane.alignment="CENTER" />
+   </right>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="527.0" prefWidth="363.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+               <children>
+                  <AnchorPane fx:id="jendela" maxHeight="507.0" maxWidth="370.0" minHeight="507.0" minWidth="370.0" prefHeight="507.0" prefWidth="370.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <AnchorPane prefHeight="551.0" prefWidth="782.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets left="13.0" right="20.0" />
+         </BorderPane.margin>
+         <children>
+            <AnchorPane prefHeight="527.0" prefWidth="782.0" style="-fx-background-color: #28293d; -fx-background-radius: 0.3cm;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

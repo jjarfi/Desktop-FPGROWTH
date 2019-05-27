@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="133.0" prefWidth="828.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="133.0" prefWidth="161.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.3cm;">
+               <HBox.margin>
+                  <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <AnchorPane layoutX="19.0" layoutY="19.0" prefHeight="133.0" prefWidth="161.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.3cm;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+               </HBox.margin>
+            </AnchorPane>
+            <AnchorPane layoutX="198.0" layoutY="19.0" prefHeight="133.0" prefWidth="161.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.3cm;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+               </HBox.margin>
+            </AnchorPane>
+            <AnchorPane layoutX="377.0" layoutY="19.0" prefHeight="133.0" prefWidth="161.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.3cm;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+               </HBox.margin>
+            </AnchorPane>
+            <AnchorPane layoutX="556.0" layoutY="19.0" prefHeight="133.0" prefWidth="161.0" style="-fx-background-color: #ffffff; -fx-background-radius: 0.3cm;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+               </HBox.margin>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>
